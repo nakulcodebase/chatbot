@@ -1,1 +1,13 @@
+cat > requirements.txt << EOF
 streamlit
+python-dotenv
+PyPDF2
+langchain-text-splitters
+langchain-huggingface
+langchain-community
+langchain-groq
+langchain-core
+faiss-cpu
+sentence-transformers
+torch
+EOF
