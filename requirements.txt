@@ -10,4 +10,5 @@ langchain-core
 faiss-cpu
 sentence-transformers
 torch
+transformers
 EOF
