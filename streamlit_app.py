@@ -111,7 +111,7 @@ def initialize_bot():
     if "conversation" not in st.session_state:
         with st.spinner("🔄 Wait, I'm retrieving the data"):
             # Load PDFs from the pdfs folder
-            raw_text = get_pdf_text_from_folder("./pdf")
+            raw_text = get_pdf_text_from_folder("./pdfs")
             
             if raw_text:
                 # Process the text
