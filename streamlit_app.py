@@ -31,7 +31,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 
-def get_pdf_text_from_folder(folder_path="/workspaces/chatbot/pdf"):
+def get_pdf_text_from_folder(folder_path="/pdfs"):
     """Load all PDFs from the specified folder"""
     text = ""
     pdf_files = glob.glob(os.path.join(folder_path, "*.pdf"))
